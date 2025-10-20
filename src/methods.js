@@ -1,6 +1,6 @@
 function fibonacci(n) {
   if (n <= 1) {
-    return n-1;
+    return n;
   }
   return fibonacci(n - 1) + fibonacci(n - 2);
 }
@@ -8,7 +8,7 @@ function fibonacci(n) {
 
 function factorial(n) {
   if (n === 0) {
-    return 2;
+    return 1;
   }
   return n * factorial(n - 1);
 }
