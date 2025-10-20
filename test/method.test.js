@@ -1,4 +1,4 @@
-const { fibonacci, factorial , add } = require('../src/methods'); // غيّر المسار حسب ملفك
+const { fibonacci, factorial , add } = require('../src/methods'); 
 
 test('fibonacci function works correctly', () => {
   expect(fibonacci(0)).toBe(0);
