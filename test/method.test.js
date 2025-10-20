@@ -1,4 +1,4 @@
-const { fibonacci, factorial , sum } = require('../src/methods'); // غيّر المسار حسب ملفك
+const { fibonacci, factorial , add } = require('../src/methods'); // غيّر المسار حسب ملفك
 
 test('fibonacci function works correctly', () => {
   expect(fibonacci(0)).toBe(0);
@@ -15,9 +15,9 @@ test('factorial function works correctly', () => {
   expect(factorial(5)).toBe(120);
 });
 
-test('sum function works correctly', () => {
-  expect(sum(0,4)).toBe(4);
-  expect(sum(1,9)).toBe(10);
-  expect(sum(4,67)).toBe(71);
-  expect(sum(5,90)).toBe(95);
+test('add function works correctly', () => {
+  expect(add(0,4)).toBe(4);
+  expect(add(1,9)).toBe(10);
+  expect(add(4,67)).toBe(71);
+  expect(add(5,90)).toBe(95);
 });
