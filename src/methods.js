@@ -13,5 +13,9 @@ function factorial(n) {
   return n * factorial(n - 1);
 }
 
+function add(n ,m) {
+  return n + m ;
+}
 
-module.exports = { fibonacci, factorial };
+
+module.exports = { fibonacci, factorial , add };
